@@ -1,0 +1,270 @@
+
+#indexBody{
+    background-color:floralwhite;
+    background-color:white;
+}
+
+
+.navbarTotal{
+    min-width:1250px;
+    background-color: #343a40!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height:1.5;
+    padding: .5rem 1rem;
+    display:flex;
+}
+
+.navbarTotal:hover{
+    color:orange;
+}
+
+.navbar-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:45%;
+    font-size:30px;
+}
+
+.navbar-nav2{
+    width:45%;
+}
+
+.navbar-nav3{
+    text-decoration:none;
+    width:10%;
+}
+
+.nav-link{
+    font-size:30px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.nav-link:hover{
+    color:orange;
+}
+
+a.nav-link{
+    color: rgba(255,255,255,.7);
+}
+
+.TPLogo{
+    height:55px;
+    padding-top:8px;
+}
+
+
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    min-width:1250px;
+    background-color: #343a40!important;
+    background-color: #343a40;
+}
+
+
+.indexHeader{
+    color:white;
+}
+
+iframe{
+    background-color:white;
+    padding:7px;
+}
+
+.displayArea{
+    outline:30px solid black;
+}
+
+div > .displayAreaViewport{
+    background-color:floralwhite;
+}
+
+iframe.explorationContainer iframe.exploreCanvas iframe.canvasFlexBox iframe.displayAreaContainer iframe.displayAreaViewport{
+    background-color:floralwhite;
+}
+
+
+.reportDiv{
+    margin:3%;
+    padding:10px;
+    background-color:rgb(58, 58, 58);
+}
+
+.reportDiv > h2{
+    text-align:center;
+    padding:10px;
+}
+
+
+#teamHTML{
+    background-image: url("white-background-1920x1080.jpg");
+    background-size:cover;
+}
+
+
+#team * {
+    box-sizing:border-box;
+    margin:1%;
+    position:relative;
+    font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+    /*border:1px solid black;*/
+
+}
+
+#team{
+    margin-left:2%;
+    margin-right:2%;
+}
+
+h1#teamPageH1{
+    margin-top:3%;
+    font-size:40px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"]{
+    float:left;
+    padding:15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-profile{
+    width:23%;
+    background-color:#0066CC;
+    border:2px solid royalblue;
+    text-align:center;
+    color:orange;
+}
+.col-profileEmpty{
+    width:23%;
+}
+
+
+.teamPageH2{
+    text-align:center;
+    padding-top:10px;
+}
+
+
+.profilePicDiv{
+    background-color:aliceblue;
+    background-color:#DFDCD7;;
+
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    padding:10px;
+}
+
+.profileFactDiv{
+    background-color:##DFDCD7;
+}
+
+.consultantName{
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+
+.funFact{
+    background-color: #DFDCD7;
+    color:black;
+    padding: 10px 5px;
+    margin-top:10px;
+}
+
+.github, .linkedIn{
+    width:30px;
+    padding-top:2px;
+    padding-bottom:4px;
+     border-bottom:4px solid transparent;
+}
+
+.github:hover, .linkedIn:hover{
+    border-bottom:4px solid orange;
+}
+
+#firstDAProfile, #firstFSEProfile{
+    animation-name:left1;
+    animation-duration:4s;
+}
+
+#secondDAProfile{
+    animation-name:left2;
+    animation-duration:4s;
+}
+
+#thirdDAProfile{
+    animation-name:right1;
+    animation-duration:4s;
+}
+
+#fourthDAProfile, #secondFSEProfile{
+    animation-name:right2;
+    animation-duration:4s;
+}
+
+@keyframes left1{
+    0%{margin-left: -200px;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes left2{
+    0%{margin-left: -200px;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes right1{
+    0%{margin-left: 100%;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes right2{
+    0%{margin-left: 100%;}
+    100% {margin-left: 0px;}
+}
+
+#aboutBackgroundImg, #homeBackgroundImg{
+    width:100%;
+    min-width:1250px;
+    position:absolute;
+    padding-top:3%;
+    z-index:-1;
+    opacity:95%;
+}
+
+.aboutDesc{
+    margin:7%;
+    padding:4%;
+    background-color:white;
+    min-height:475px;
+    opacity:90%;
+}
+
+#aboutHeader{
+    display:none;
+}
+
+#descParagraph{
+    display:none;
+    font-size:22px;
+    color:#0066CC;
+    line-height:1.7;
+}
+
+
+
